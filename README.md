@@ -34,3 +34,5 @@ On your Desktop, find the Docker QuickStart Terminal icon.
     docker run hello-world 
 ```
 
+## Questions?
+Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have any questions/tbst in installing docker or others!
