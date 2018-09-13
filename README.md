@@ -1,6 +1,6 @@
 # "Pracital session on "Beyond Genome-wide Association Studies"
 ## What this session is about?
-Genome-wide association studies (GWAS) have identified multiple genetic variants  associated with complex traits, many efforts have shown that a sizeable fraction of the genetics explaining the pheotypic variance. With the recent trend of making these summary measures publicly available it has opened new venues to test overlap between these complex traits from the genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer some biological evidence from otherwise purely statistical signals. 
+Genome-wide association studies (GWAS) have identified multiple genetic variants  associated with complex traits, many efforts have shown that a sizeable fraction of the pheotypic variance is explained by the genetics. With the recent trend of making these summary measures publicly available it has opened new avenues to test overlap between these complex traits from the genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer biological evidence from otherwise purely statistical signals. 
 ## What you need?
 To avoid any possible delays/hiccups in running the analysis from a command line (which is the ideal way anyways!!). 
 This DIY session instead will use Jypternotebook (web interface) in running the analysis. By this means, participants can focus more on the analysis (then troubleshooting or setting things up)  
