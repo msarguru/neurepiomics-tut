@@ -7,6 +7,7 @@ This DIY session instead will use Jypternotebook (web interface) in running the 
 ## Requirements:
 1. Docker software (that creates a VM machine)
 2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and can be downloaded through the following google drive link
+https://drive.google.com/open?id=1OZEqi9CWgOzbOIVVTm7wvhY-wWNpMdHs
 # Strongly advise to download this docker image file, prior to the session!!!
 
 ## Installing docker:
