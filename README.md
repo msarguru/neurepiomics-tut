@@ -10,17 +10,17 @@ This DIY session instead will use Jypternotebook (web interface) in running the 
 # Strongly advise to download this docker image file, prior to the session!!!
 
 ## Installing docker:
-For mac:
+### For mac:
 1. This should be a straightforward installation https://download.docker.com/mac/stable/Docker.dmg
 2. for more info in installation: https://store.docker.com/editions/community/docker-ce-desktop-mac
 3. After installing;
 Open terminal, and try out some Docker commands.
-    #### to check that you have the latest release installed.
+
  ```
  docker version 
  docker run hello-world 
 ```
-For windows 10 or less:
+### For windows 10 or less:
 1. Please install docker toolbox https://download.docker.com/win/stable/DockerToolbox.exe , and not the standard docker as it requires Windows 10 Pro
 2. stick to the default settings during installation, for more info: https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox
 3. After installing;
