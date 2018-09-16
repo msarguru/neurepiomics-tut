@@ -38,3 +38,27 @@ On your Desktop, find the Docker QuickStart Terminal icon.
 
 ## Questions?
 Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have any questions/tbst in installing docker or others!
+
+
+# Running the analysis
+## FOR MACBOOK / Windows USERS
+## STEP1: open terminal (if you have installed standard Docker) or the Docker Quickstart terminal (if Docker toolbox)
+### RUN
+
+```
+   #see if there is any image already
+   docker ps
+   #load docker image file with,
+   docker load < <downloaded tar.gz file>
+   #confirm that the image is loaded with,
+   docker images
+   #run the docker image with,
+   docker run -it --rm --user root -p 8888:8888 bioinfo_ms_tut:finalv2
+   #start the notebook for interactive service with,
+   jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+## STEP 2: Above step gives you an URL 
+1. copy the URL and paste it in a web browser (chrome or firefox)
+2. Replace the contents within and the brackets with **localhost** 
+3. if this does not work replace with 
+
