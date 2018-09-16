@@ -41,24 +41,49 @@ Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have
 
 
 # Running the analysis
-## FOR MACBOOK / Windows USERS
-## STEP1: open terminal (if you have installed standard Docker) or the Docker Quickstart terminal (if Docker toolbox)
+## CASE 1: FOR MACBOOK / Windows USERS who have installed Standard Docker AND NOT DOCKER TOOLBOX
+## STEP1: open terminal or cmd line tool
 ### RUN
 
 ```
    #see if there is any image already
    docker ps
-   #load docker image file with,
+   #load docker image file with, it takes some time WAIT
    docker load < <downloaded tar.gz file>
    #confirm that the image is loaded with,
    docker images
    #run the docker image with,
-   docker run -it --rm --user root -p 8888:8888 bioinfo_ms_tut:finalv2
+   docker run -it --rm --user root -p 8888:8888 bioinfo_ms_tut:trial
    #start the notebook for interactive service with,
    jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ```
 ## STEP 2: Above step gives you an URL 
-1. copy the URL and paste it in a web browser (chrome or firefox)
-2. Replace the contents within and the brackets with **localhost** 
-3. if this does not work replace with 
+1. copy the FULL URL and paste it in a web browser (chrome or firefox)
+2. Replace the contents within and the brackets with **localhost** and hit ENTER
 
+## CASE 2: FOR MACBOOK / Windows USERS who have installed DOCKER TOOLBOX
+## STEP1: open Docker Quickstart terminal (wait until you see a dollar sign, give admin permission as it prompts up)
+### RUN
+
+```
+   #see if there is any image already
+   docker ps
+   #load docker image file with, it takes some time WAIT
+   docker load < <downloaded tar.gz file>
+   #confirm that the image is loaded with,
+   docker images
+   #run the docker image with,
+   docker run --rm -it --user root -d -p 8888:8888 bioinfo_ms_tut:trial
+   docker ps
+   docker exec -it <containerID> bash
+   #start the notebook for interactive service with,
+   jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+## STEP 2: Above step gives you an URL 
+1. copy the FULL URL and paste it in a web browser (chrome or firefox)
+2. open a new terminal by right clicking and left clicking docker quickstart terminal
+``` 
+   docker-machine ls
+   docker-machine ip default
+```
+2. Replace the contents within and the brackets with the IP number and hit ENTER
