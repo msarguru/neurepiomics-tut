@@ -39,6 +39,11 @@ On your Desktop, find the Docker QuickStart Terminal icon.
 ## Questions?
 Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have any questions/tbst in installing docker or others!
 
+# FOR FUMA
+http://fuma.ctglab.nl/
+
+
+
 
 # Running the analysis
 ## CASE 1: FOR MACBOOK / Windows USERS who have installed Standard Docker AND NOT DOCKER TOOLBOX
