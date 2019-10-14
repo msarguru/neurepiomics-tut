@@ -11,18 +11,16 @@ http://bit.ly/2OcL8Mt
 
 # Strongly advise to download this docker image file, prior to the session!!!
 
-## Installing docker:
-### For mac:
-1. This should be a straightforward installation https://download.docker.com/mac/stable/Docker.dmg
-2. for more info in installation: https://store.docker.com/editions/community/docker-ce-desktop-mac
-3. After installing;
+## Installing docker for MAC (https://docs.docker.com/docker-for-mac/install/) and Windows 10 Pro (https://docs.docker.com/docker-for-windows/install/)
+1. You can set-up a free docker hub account and follow the instructions prompted. Should be straightforward
+2. After installing;
 Open terminal, and try out some Docker commands.
 
  ```
  docker version 
  docker run hello-world 
 ```
-### For windows 10 or less:
+### Installing docker for windows 10 or less:
 1. Please install docker toolbox https://download.docker.com/win/stable/DockerToolbox.exe , and not the standard docker as it requires Windows 10 Pro
 2. stick to the default settings during installation, for more info: https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox
 3. After installing;
@@ -38,11 +36,6 @@ On your Desktop, find the Docker QuickStart Terminal icon.
 
 ## Questions?
 Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have any questions/tbst in installing docker or others!
-
-# FOR FUMA
-http://fuma.ctglab.nl/
-
-
 
 
 # Running the analysis
