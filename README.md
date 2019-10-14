@@ -6,8 +6,7 @@ To avoid any possible delays/hiccups in running the analysis from a command line
 This DIY session instead will use Jypternotebook (web interface) in running the analysis. By this means, participants can focus more on the analysis (then troubleshooting or setting things up)  
 ## Requirements:
 1. Docker software (that creates a VM machine)
-2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and can be downloaded through the following google drive link
-http://bit.ly/2OcL8Mt
+2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and will be comminucated few days prior to the session.
 
 # Strongly advise to download this docker image file, prior to the session!!!
 
