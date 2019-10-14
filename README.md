@@ -1,14 +1,14 @@
 # "Pracital session on "Beyond Genome-wide Association Studies"
 ## What this session is about?
-Genome-wide association studies (GWAS) have identified multiple genetic variants  associated with complex traits, many efforts have shown that a sizeable fraction of the pheotypic variance is explained by the genetics. With the recent trend of making these summary measures publicly available it has opened new avenues to test overlap between these complex traits from the genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer biological evidence from otherwise purely statistical signals. 
+Genome-wide association studies (GWAS) have identified multiple genetic variants robustly associated with complex traits. With the recent trend of making these summary measures publicly available it has opened new avenues to test overlap between the complex traits from a genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer biological evidence from otherwise purely statistical signals. 
 ## What you need?
-To avoid any possible delays/hiccups in running the analysis from a command line (which is the ideal way anyways!!). 
-This DIY session instead will use Jypternotebook (web interface) in running the analysis. By this means, participants can focus more on the analysis (then troubleshooting or setting things up)  
+To avoid possible delays/hiccups in running the analysis through a command line/cluster (which is the ideal way anyways!!). 
+This DIY session will use Jupyternotebook (web interface) in running the analysis. By this means, participants can focus more on the analysis (then troubleshooting or setting things up)  
 ## Requirements:
 1. Docker software (that creates a VM machine)
-2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and will be comminucated few days prior to the session.
+2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and will be communicated few days prior to the session.
 
-# Strongly advise to download this docker image file, prior to the session!!!
+# IMPORTANT: Please install docker, prior to the session!!!
 
 ## Installing docker for MAC (https://docs.docker.com/docker-for-mac/install/) and Windows 10 Pro (https://docs.docker.com/docker-for-windows/install/)
 1. You can set-up a free docker hub account and follow the instructions prompted. Should be straightforward
@@ -37,7 +37,8 @@ On your Desktop, find the Docker QuickStart Terminal icon.
 Please email muralisarguru@live.co.uk (with the subject neurepi2018) if you have any questions/tbst in installing docker or others!
 
 
-# Running the analysis
+# Running the analysis during the session:
+
 ## CASE 1: FOR MACBOOK / Windows USERS who have installed Standard Docker AND NOT DOCKER TOOLBOX
 ## STEP1: open terminal or cmd line tool
 ### RUN
