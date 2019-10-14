@@ -1,11 +1,11 @@
 # "Pracital session on "Beyond Genome-wide Association Studies"
 ## What this session is about?
-Genome-wide association studies (GWAS) have identified multiple genetic variants robustly associated with complex traits. With the recent trend of making these summary measures publicly available it has opened new avenues to test overlap between the complex traits from a genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer biological evidence from otherwise purely statistical signals. 
+Genome-wide association studies (GWAS) have identified multiple genetic variants robustly associated with complex traits. The recent trend of making summary measures publicly available, has opened new avenues to test overlap between the complex traits from a genetics standpoint. In this session, we will explore some of the follow-ups strategy to infer biological evidence from otherwise purely statistical signals. 
 ## What you need?
 To avoid possible delays/hiccups in running the analysis through a command line/cluster (which is the ideal way!!). 
 This DIY session will use Jupyternotebook (web interface) in running the analysis. By this means, participants can focus more on the analysis (then troubleshooting or setting things up)  
 ## Requirements:
-1. Docker software (that creates a VM machine)
+1. Docker software (that creates a Virtual Machine)
 2. Docker image file (that contains all the necessary files to run the analysis), it is a gzipped (*.gz) file and will be communicated few days prior to the session.
 
 # IMPORTANT: Please install docker, prior to the session!!!
